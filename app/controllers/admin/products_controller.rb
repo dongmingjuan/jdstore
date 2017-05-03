@@ -35,11 +35,15 @@ class Admin::ProductsController < ApplicationController
     end
   end
 
+  def show
+    @product = Product.find(params[:id])
+  end
+
   def destroy
     @product = Product.find(params[:id])
 
     @product.destroy
-    redirect_To admin_products_path, alert: "The product deleted!"
+    redirect_to admin_products_path, alert: "The product deleted!"
   end
 
   private
