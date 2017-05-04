@@ -17,3 +17,18 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+
+// pageonesindex
+
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+    border: 1px solid yellow;
+    padding: 30px;
+    margin:  50px;
+}

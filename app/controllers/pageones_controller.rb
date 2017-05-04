@@ -1,0 +1,2 @@
+class PageonesController < ApplicationController
+end
