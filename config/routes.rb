@@ -3,8 +3,8 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :products
   end
-  # root 'products#index'
-  root 'welcome#index'
+  root 'products#index'
+  # root 'welcome#index'
   # root 'pages#index'
   # root 'pageones#index'
 
